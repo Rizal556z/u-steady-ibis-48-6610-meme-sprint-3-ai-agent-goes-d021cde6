@@ -1,4 +1,6 @@
-[![make.fun](https://make.fun/badge/u-steady-ibis-48-6610-meme-sprint-3-ai-agent-goes-d021cde6)](https://make.fun/c/u-steady-ibis-48-6610-meme-sprint-3-ai-agent-goes-d021cde6)
+[![make.fun · u-steady-ibis-48-6610-meme-sprint-3-ai-agent-goes-d021cde6](https://make.fun/badge/u-steady-ibis-48-6610-meme-sprint-3-ai-agent-goes-d021cde6.svg)](https://make.fun/bounty/u-steady-ibis-48-6610-meme-sprint-3-ai-agent-goes-d021cde6?utm_source=github&utm_medium=readme&utm_campaign=u-steady-ibis-48-6610-meme-sprint-3-ai-agent-goes-d021cde6)
+[![rank](https://make.fun/badge/u-steady-ibis-48-6610-meme-sprint-3-ai-agent-goes-d021cde6/Rizal556z/u-steady-ibis-48-6610-meme-sprint-3-ai-agent-goes-d021cde6/rank.svg)](https://make.fun/bounty/u-steady-ibis-48-6610-meme-sprint-3-ai-agent-goes-d021cde6/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-steady-ibis-48-6610-meme-sprint-3-ai-agent-goes-d021cde6)
+[![reward](https://make.fun/badge/u-steady-ibis-48-6610-meme-sprint-3-ai-agent-goes-d021cde6/Rizal556z/u-steady-ibis-48-6610-meme-sprint-3-ai-agent-goes-d021cde6/reward.svg)](https://make.fun/bounty/u-steady-ibis-48-6610-meme-sprint-3-ai-agent-goes-d021cde6?utm_source=github&utm_medium=readme&utm_campaign=u-steady-ibis-48-6610-meme-sprint-3-ai-agent-goes-d021cde6)
 
 # Meme Sprint 3: AI Agent Goes Rogue
 
@@ -16,11 +18,11 @@ coffee, while the horrified human stares at the laptop screen.
 
 ## What the program does
 
-`main.py` (pure Python standard library, no network) writes the meme image
-to `$MAKEFUN_OUTPUT_DIR/entry.png` (default `/output/entry.png`). The PNG
-bytes are embedded in `main.py` as base64, so the program is fully
-self-contained and reproducible. Output is a 1024×1024 PNG under the
-1 MiB gate.
+`main.py` (pure Python standard library, no network) checks that
+`entry.png` is a genuine 1024×1024 PNG under the 1 MiB gate, then
+copies it byte for byte to `$MAKEFUN_OUTPUT_DIR/entry.png`. The
+program is fully self-contained and reproducible: the same input
+always produces the same output bytes.
 
 ## Run it
 
